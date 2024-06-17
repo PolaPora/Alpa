@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>문제 1번</title>
+    </head>
+
+    <body>
+        <form>
+            <fieldset>
+                <legend style="font-size: 100;">개인 정보 입력</legend>
+                    <p>아 이 디: <input type="text" name="ID" size="20" required>
+                        <input type="submit" value="ID중복검사"></p>
+                    <p>생년월일: <input type="date" name="Birthday"></p>
+                    <p>성별: <input type="radio" name="sex" value="male" checked>남성
+                        <input type="radio" name="sex" value="female">여성</p>
+                    <p>E-mail: <input type="email" name="myemail"></p>
+                    <p>메일수신: <input type="radio" name="mailcheck">수신동의
+                                <input type="radio" name="mailcheck">수신거부
+                    </p>
+                    <p>핸드폰: <select name="first nub">
+                        <option value="1" selected>010</option>
+                        <option value="2">011</option>
+                        <option value="3">012</option>
+                    </select>
+                    - <input type="text" name="middle nub" size="20">
+                    - <input type="text" name="last nub" size="20">
+                    </p>
+                    <p>직업: <select name="job">
+                        <option value="1" selected>학생</option>
+                        <option value="2">주부</option>
+                        <option value="3">회사원</option>
+                        <option value="4">연구원</option>
+                        <option value="5">백수</option>
+                    </select>
+                    </p>
+                    <p>취미: <input type="checkbox" name="subject" value="쇼핑">쇼핑
+                             <input type="checkbox" name="subject" value="인터넷">인터넷
+                             <input type="checkbox" name="subject" value="음악감상">음악감상
+                             <input type="checkbox" name="subject" value="독서">독서
+                             <input type="checkbox" name="subject" value="스포츠">스포츠
+                    </p>
+                    <p>자기소개: <textarea cols="50" rows="5"></textarea></p>
+            </fieldset>
+            <br>
+            <input type="submit" value="등록">
+            <input type="reset" value="초기화">
+        </form>
+    </body>
+</html>
